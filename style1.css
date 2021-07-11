@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "AkkuratPro-Regular";
+    src: url("font/fontr/AkkuratPro-Regular.woff");
+}
+*{
+    background-color:#f7f7f7;
+    font-family: "AkkuratPro-Regular";
+    margin:0px;
+    padding:0px;
+}
+header{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+div.tit{
+    width:100%;
+    padding:20px;
+    margin:20px;
+    font-size:30px;
+}
+div.boton{
+    display:flex;
+    justify-content: space-around;
+}
+button{
+    text-align:center;
+    justify-content: space-around;
+    background-color: rgb(29, 28, 28);
+    border:none;
+    color:#f7f7f7;
+    padding:10px 25px;
+    font-size:12px;
+    cursor:pointer;
+}
+footer{
+    background-color: rgb(29, 28, 28);  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height:90px;
+    width:100%;
+    text-align: center;
+    color:gray;
+    font-size:10px;
+
+}
+/* end */
+
+

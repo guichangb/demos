@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "AkkuratPro-Regular";
+    src: url("font/fontr/AkkuratPro-Regular.woff");
+}
+
+*{
+    background-color:#f7f7f7;
+    font-family: "AkkuratPro-Regular";
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    background-color: black;
+    color:#f7f7f7;
+    text-align: center;
+    width:100%;
+    font-size:30px;
+    padding-bottom:10px;
+}
+h3{
+    font-size:50px;
+    text-align:center;
+}
+.sub{
+    text-align: center;
+}
+header h6{
+    font-size:20px;
+    background: black;
+    color:#f7f7f7;
+    font-style:italic;
+    padding-bottom: 10px;
+}
+ul{
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    background-color: black;   
+}
+li{
+    font-size: 15px; 
+    padding: 10px 10px;
+    text-align: center;
+    background:rgb(31,33,33);
+}
+a li:hover{
+    background:gray;
+}
+a{
+    flex-grow: 1;
+    text-decoration: none;
+    background-color: black;
+    color: #f7f7f7;
+}
+
+div.d1{
+    text-align:center;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+div.d2{
+    text-align:center;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+div.d3{
+    text-align:center;
+    width:100%;
+    height:250px;
+    margin:0;
+   
+}
+div.boton{
+    display:flex;
+    justify-content: space-around;
+    margin:15px;
+}
+button{
+    background-color: black;
+    border: none;
+    width:45%;
+    color: #f7f7f7;
+    padding: 10px 10px;    
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+h5{
+    font-size:15px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+}
+h2{
+    font-size:25px;
+}
+p{
+    color:#6b6868;
+}
+h4{
+    font-size:18px;
+}
+.tresbloquesf{
+    padding:10px;
+    margin-bottom:45px;
+    margin-top:20px;
+    display:column;
+    flex-direction:column;
+}
+.tresbloquess{
+    padding:10px;
+    margin-bottom:45px;
+    margin-top:20px;
+    display:column;
+    flex-direction:row;
+}
+
+footer{
+    background-color: rgb(29, 28, 28);  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height:90px;
+    width:100%;
+    text-align: center;
+    color:gray;
+    font-size:10px;
+}
+
+/* end */
